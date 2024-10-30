@@ -1,0 +1,98 @@
+body{background-color: #791414;
+   }
+
+
+
+h1{font-size: large;
+font-weight: 100;
+font-size: 2vw;
+text-decoration-line: initial;
+margin: 5%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: azure;}
+
+h2{font-size: large;
+    font-size: 3vw;
+    color:#791414;
+margin: 5%;}
+
+P{font-size: small;
+    font-weight: 20;
+    margin: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    font-size: 2vw;
+}
+
+  
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+  overflow-wrap: anywhere; /*add this it*/
+}
+
+.first{grid-column: span 2;
+    grid-template-rows:1fr;
+gap: 30px;}
+
+
+
+
+img{float: right;
+align-items:center;
+width: 50%;
+margin: 5%;
+padding-right: 5%;
+border-radius: 5%;
+}
+
+
+.boxone{
+    background-color: black;
+text-align: center;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 5%;
+
+}
+
+
+.boxtwo{
+    background-color: black;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 5%;
+
+}
+
+.footer{
+    background-color: black;
+}
+
+.c-wrapper{
+    width: 80%; /* for example */
+    margin: auto auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 50%; /* use this, or not */
+margin: auto auto;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    body { 
+       font-size: 2em; 
+    }
+ 
+ }
+
+ .footer{
+    background-color: black;
+border: solid;
+
+}
